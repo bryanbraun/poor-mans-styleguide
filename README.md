@@ -1,8 +1,8 @@
-# Styleguide Template
+# Frontend Styleguide Template
 
-This styleguide template contains most of the common HTML elements. You can use it to demonstrate the look of your design on various types of content.
+This styleguide template contains many common HTML elements. You can use it to demonstrate the look of your designs across a variety of content.
 
-If you'd like to contribute, make your changes to both the HTML (styleguide.html) and markdown (README.md) versions.<p>
+If you'd like to contribute, make your changes to both the [markdown](https://github.com/bryanbraun/frontend-styleguide/blob/master/README.md) and [HTML](https://github.com/bryanbraun/frontend-styleguide/blob/master/styleguide.html) files. If the elements won't render in markdown (like forms, for example), you can just add them to the final section of [styleguide.html](https://github.com/bryanbraun/frontend-styleguide/blob/master/styleguide.html).<p>
 
 * * *
 
@@ -117,27 +117,15 @@ The <var>var element</var> example
 
 # Monospace / Preformatted
 
-    Code block wrapped in &lt;pre&gt;&lt;code&gt;: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.
+    Code block wrapped in <pre><code>: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.
 
 <pre>
-
-Monospace Text wrapped in &lt;pre&gt;: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.
+Monospace Text wrapped in "pre" tags: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.
 </pre>
 
 * * *
 
 # List Types
-
-### Definition List
-
-<dl>
-  <dt>Definition List Term 1</dt>
-  <dd>This is a definition list description.</dd>
-  <dt>Definition List Term 2</dt>
-  <dd>This is a definition list description.</dd>
-  <dt>Definition List Term 3</dt>
-  <dd>This is a definition list description.</dd>
-</dl>
 
 ### Ordered List
 
@@ -151,73 +139,16 @@ Monospace Text wrapped in &lt;pre&gt;: Lorem ipsum dolor sit amet, consectetuer 
 *   List Item 2
 *   List Item 3
 
-* * *
+### Definition List
 
-# Fieldsets, Legends, and Form Elements
-
-<fieldset>
-  <legend>Legend</legend>
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
-
-  <form>
-
-## Form Element
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.
-
-<label for="text_field">Text Field:</label>
-
-    <input type="text" id="text_field" />
-
-<label for="text_area">Text Area:</label>
-
-    <textarea id="text_area"></textarea>
-
-<label for="select_element">Select Element:</label>
-
-      <select name="select_element">
-      <optgroup label="Option Group 1">
-        <option value="1">Option 1</option>
-        <option value="2">Option 2</option>
-        <option value="3">Option 3</option>
-      </optgroup>
-      <optgroup label="Option Group 2">
-        <option value="1">Option 1</option>
-        <option value="2">Option 2</option>
-        <option value="3">Option 3</option>
-      </optgroup>
-    </select>
-
-<label for="radio_buttons">Radio Buttons:</label>
-
-      <input type="radio" class="radio" name="radio_button" value="radio_1" /> Radio 1
-
-        <input type="radio" class="radio" name="radio_button" value="radio_2" /> Radio 2
-
-        <input type="radio" class="radio" name="radio_button" value="radio_3" /> Radio 3
-
-<label for="checkboxes">Checkboxes:</label>
-
-      <input type="checkbox" class="checkbox" name="checkboxes" value="check_1" /> Radio 1
-
-        <input type="checkbox" class="checkbox" name="checkboxes" value="check_2" /> Radio 2
-
-        <input type="checkbox" class="checkbox" name="checkboxes" value="check_3" /> Radio 3
-
-<label for="password">Password:</label>
-
-      <input type="password" class="password" name="password" />
-
-<label for="file">File Input:</label>
-
-      <input type="file" class="file" name="file" />
-
-<input class="button" type="reset" value="Clear" /> <input class="button" type="submit" value="Submit" />
-
-  </form>
-
-</fieldset>
+<dl>
+  <dt>Definition List Term 1</dt>
+  <dd>This is a definition list description.</dd>
+  <dt>Definition List Term 2</dt>
+  <dd>This is a definition list description.</dd>
+  <dt>Definition List Term 3</dt>
+  <dd>This is a definition list description.</dd>
+</dl>
 
 * * *
 
@@ -239,3 +170,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim conva
 </table>
 
 * * *
+
+# Fieldsets, Legends, and Form Elements
+
+This last section contains elements that don't render well in markdown. Please consult the final section in [styleguide.html](https://github.com/bryanbraun/frontend-styleguide/blob/master/styleguide.html), to see the rest of the styleguide.
