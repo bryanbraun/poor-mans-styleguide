@@ -117,11 +117,11 @@ The <var>var element</var> example
 
 # Monospace / Preformatted
 
+Code block wrapped in "pre" and "code" tags:
     Code block wrapped in <pre><code>: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.
 
-<pre>
-Monospace Text wrapped in "pre" tags: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.
-</pre>
+Monospace Text wrapped in "pre" tags:
+<pre>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui.</pre>
 
 * * *
 
