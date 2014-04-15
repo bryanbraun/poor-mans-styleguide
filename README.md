@@ -6,8 +6,6 @@ If you'd like to contribute, make your changes to both the [markdown](https://gi
 
 * * *
 
-# Headings
-
 # Heading 1
 
 ## Heading 2
@@ -57,6 +55,7 @@ Lorem ipsum dolor sit amet, [this is a hyperlink](# "This is a hyperlink") adipi
 Lorem ipsum dolor sit amet, **this text is strong** adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.
 
 Lorem ipsum dolor sit amet, _this text is emphasized_ consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.
+
 ![Placeholder Image and Some Alt Text](http://placehold.it/350x150 "A title element for this placeholder image.")
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy.
