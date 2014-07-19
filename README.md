@@ -4,6 +4,9 @@ This styleguide template contains many common elements in HTML and [(Github Flav
 
 If you'd like to contribute, make your changes to both the [markdown](https://github.com/bryanbraun/frontend-styleguide/blob/gh-pages/README.md) and [HTML](https://github.com/bryanbraun/frontend-styleguide/blob/gh-pages/index.html) files. If the elements won't render in markdown (like forms, for example), you can just add them to the final section of [index.html](https://github.com/bryanbraun/frontend-styleguide/blob/gh-pages/index.html).
 
+**[See the Markdown](https://github.com/bryanbraun/frontend-styleguide#frontend-styleguide-template)**
+**[See the HTML](http://bryanbraun.github.io/frontend-styleguide/)**
+
 * * *
 
 # Heading 1
