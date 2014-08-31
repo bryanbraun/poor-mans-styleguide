@@ -1,8 +1,10 @@
-# Poor Man's Styleguide 
+# Poor Man's Styleguide
 
-This frontend styleguide template contains many common elements in HTML and [(Github Flavored) Markdown](https://help.github.com/articles/github-flavored-markdown). It's desiged to be copied and pasted into your CMS as a quick-and-dirty styleguide. 
+A quick-and-dirty frontend styleguide, designed to be copied and pasted into your CMS.
 
-If you'd like to contribute, make your changes to both the [markdown](https://github.com/bryanbraun/poor-mans-styleguide/blob/gh-pages/README.md) and [HTML](https://github.com/bryanbraun/poor-mans-styleguide/blob/gh-pages/index.html) files. If the elements won't render in markdown (like forms, for example), you can just add them to the final section of [index.html](https://github.com/bryanbraun/poor-mans-styleguide/blob/gh-pages/index.html).
+It contains all common page elements, in HTML and [(Github Flavored) Markdown](https://help.github.com/articles/github-flavored-markdown) formats.
+
+If you'd like to contribute, make your changes to both the [markdown](https://github.com/bryanbraun/poor-mans-styleguide/blob/gh-pages/README.md) and [HTML](https://github.com/bryanbraun/poor-mans-styleguide/blob/gh-pages/index.html) files. If the elements can not be represented in markdown (like forms, for example), you can just add them to the final section of [index.html](https://github.com/bryanbraun/poor-mans-styleguide/blob/gh-pages/index.html).
 
 **[See the full demo at poormansstyleguide.com](http://poormansstyleguide.com)**
 
@@ -172,5 +174,4 @@ Monospace Text wrapped in "pre" tags:
 
 # Media and Form Elements
 
-This last section contains elements that don't render well in markdown. Please consult the final section in [index.html](https://github.com/bryanbraun/poor-mans-styleguide/blob/gh-pages/index.html), to see the rest of the styleguide.
-
+This last section contains elements that cannot be represented in markdown. Please consult the final section of [the HTML version](https://github.com/bryanbraun/poor-mans-styleguide/blob/gh-pages/index.html), to see the rest of the styleguide.
