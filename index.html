@@ -100,11 +100,83 @@ for (i = 0; i < divs.length; ++i) {
   <li>List Item 3</li>
 </ol>
 
+<h4>Nested</h4>
+
+<ol>
+  <li>List Item 1
+    <ol>
+      <li>List Item 1.1</li>
+      <li>List Item 1.2
+        <ol>
+          <li>List Item 1.1.1</li>
+          <li>List Item 1.1.2</li>
+          <li>List Item 1.1.3</li>
+        </ol>
+      </li>
+      <li>List Item 1.3</li>
+    </ol>
+  </li>
+  <li>List Item 2</li>
+  <li>List Item 3
+    <ol>
+      <li>List Item 3.1
+        <ol>
+          <li>List Item 3.1.1</li>
+          <li>List Item 3.1.2
+            <ol>
+              <li>List Item 3.1.2.1</li>
+              <li>List Item 3.1.2.2</li>
+            </ol>
+          </li>
+          <li>List Item 3.1.3</li>
+        </ol>
+      </li>
+      <li>List Item 3.2</li>
+    </ol>
+  </li>
+</ol>
+
 <h3>Unordered List</h3>
 <ul>
   <li>List Item 1</li>
   <li>List Item 2</li>
   <li>List Item 3</li>
+</ul>
+
+<h4>Nested</h4>
+
+<ul>
+  <li>List Item 1
+    <ul>
+      <li>List Item 1.1</li>
+      <li>List Item 1.2
+        <ul>
+          <li>List Item 1.1.1</li>
+          <li>List Item 1.1.2</li>
+          <li>List Item 1.1.3</li>
+        </ul>
+      </li>
+      <li>List Item 1.3</li>
+    </ul>
+  </li>
+  <li>List Item 2</li>
+  <li>List Item 3
+    <ul>
+      <li>List Item 3.1
+        <ul>
+          <li>List Item 3.1.1</li>
+          <li>List Item 3.1.2
+            <ul>
+              <li>List Item 3.1.2.1</li>
+              <li>List Item 3.1.2.2</li>
+            </ul>
+          </li>
+          <li>List Item 3.1.3</li>
+        </ul>
+      </li>
+      <li>List Item 3.2</li>
+    </ul>
+  </li>
 </ul>
 
 <h3>Definition List</h3>
@@ -123,9 +195,14 @@ for (i = 0; i < divs.length; ++i) {
 
 <table cellspacing="0" cellpadding="0">
   <caption>This is a table caption</caption>
-  <tr>
-    <th>Table Header 1</th><th>Table Header 2</th><th>Table Header 3</th>
-  </tr>
+  <thead>
+    <tr>
+      <th colspan="3">This is a table header element</th>
+    </tr>
+    <tr>
+      <th>Table Header 1</th><th>Table Header 2</th><th>Table Header 3</th>
+    </tr>
+  </thead>
   <tr>
     <td>Division 1</td><td>Division 2</td><td>Division 3</td>
   </tr>
@@ -135,6 +212,11 @@ for (i = 0; i < divs.length; ++i) {
   <tr>
     <td>Division 1</td><td>Division 2</td><td>Division 3</td>
   </tr>
+  <tfoot>
+    <tr>
+      <th>Table Footer 1</th><th>Table Footer 2</th><th>Table Footer 3</th>
+    </tr>
+  </tfoot>
 </table>
 
 <hr />
