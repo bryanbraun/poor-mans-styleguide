@@ -52,11 +52,13 @@
 <h1 id="text-elements"> Text Elements</h1>
 
 <p>The <a href="#">a element</a> example</p>
+<p>External <a href="http://google.com" target="_BLANK">link anchor</a>, open in new window</p>
 <p>The <abbr>abbr element</abbr> and an <abbr title="Abbreviation">abbr</abbr> element with title examples</p>
 <p>The <acronym title="A Cowboy Ran One New York Marathon">ACRONYM</acronym> element example</p>
 <p>The <b>b element</b> example</p>
 <p>The <cite>cite element</cite> example</p>
 <p>The <code>code element</code> example</p>
+<p>The <data value="3967381398">data element</data> example</p>
 <p>The <em>em element</em> example</p>
 <p>The <del>del element</del> example</p>
 <p>The <dfn>dfn element</dfn> and <dfn title="Title text">dfn element with title</dfn> examples</p>
@@ -73,6 +75,7 @@
 <p>The <strong>strong element</strong> example</p>
 <p>The <sub>sub element</sub> example</p>
 <p>The <sup>sup element</sup> example</p>
+<p>The <time datetime="2005-05-15 19:00">time element</time> example</p>
 <p>The <u>u element</u> example</p>
 <p>The <var>var element</var> example</p>
 
@@ -88,6 +91,23 @@ for (i = 0; i < divs.length; ++i) {
 }</code></pre>
 <p>Monospace Text wrapped in "pre" tags</p>
 <pre><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</p></pre>
+
+<h1 id="text-block">Text in Block Elements</h1>
+
+<p>Details-Summary element</p>
+
+<details>
+  <summary>Click to learn more about details</summary>
+  <p>The text above was only a summary. This is the full text of the details element. It may be styled
+     differently based on what browser or operating system you are using.</p>
+</details>
+
+<p>Figure-Caption element</p>
+
+<figure>
+  <img src="http://placehold.it/640/480" alt="An awesome picture" />
+  <figcaption>A beautiful placeholder image, taken against the backdrop of an LCD monitor.</figcaption>
+</figure>
 
 <hr />
 
@@ -232,19 +252,25 @@ for (i = 0; i < divs.length; ++i) {
 
 <h2>Media</h2>
 
-<p>The Audio Element:</p>
+<h3>The Audio Element:</h3>
 <audio controls>
   <source src="http://www.w3schools.com/tags/horse.ogg" type="audio/ogg" />
   <source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg" />
   Your browser does not support the audio element.
 </audio>
 
-<p>The Video Element:</p>
+<h3>The Video Element:</h3>
 <video width="320" height="240" controls>
   <source src="http://www.w3schools.com/tags/movie.mp4" type="video/mp4" />
   <source src="http://www.w3schools.com/tags/movie.ogg" type="video/ogg" />
   Your browser does not support the video tag.
 </video>
+
+<h3>Embedded content:</h3>
+
+<p>YouTube video (iframe):</p>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/l4f9QF0SGuQ" frameborder="0" allowfullscreen></iframe>
 
 <h2>Form Elements</h2>
 
@@ -369,6 +395,18 @@ for (i = 0; i < divs.length; ++i) {
 
     <p><label for="range">Range:</label><br />
       <input type="range" id="range" name="points" min="1" max="10" />
+    </p>
+
+    <p><label for="output">Output:</label><br />
+      <output name="result" id="output">42</output>
+    </p>
+
+    <p><label for="progress">Progress:</label><br />
+      <progress value="65" max="100"></progress>
+    </p>
+
+    <p><label for="meter">Meter:</label><br />
+      <meter min="200" max="500" value="350">350 degrees</meter>
     </p>
 
     <p>
