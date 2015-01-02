@@ -122,6 +122,7 @@ for (i = 0; i < divs.length; ++i) {
 <h1 id="tables">Tables</h1>
 
 <table cellspacing="0" cellpadding="0">
+  <caption>This is a table caption</caption>
   <tr>
     <th>Table Header 1</th><th>Table Header 2</th><th>Table Header 3</th>
   </tr>
@@ -171,8 +172,24 @@ for (i = 0; i < divs.length; ++i) {
       <input type="text" id="text_field" />
     </p>
 
+    <p><label for="text_field_disabled">Disabled Text Field:</label><br />
+      <input type="text" id="text_field_disabled" disabled value="I'm disabled" />
+    </p>
+
+    <p><label for="text_field_readonly">Readonly Text Field:</label><br />
+      <input type="text" id="text_field_readonly" readonly value="I'm readonly" />
+    </p>
+
     <p><label for="text_area">Text Area:</label><br />
       <textarea id="text_area"></textarea>
+    </p>
+
+    <p><label for="text_area_disabled">Disabled Text Area:</label><br />
+      <textarea id="text_area_disabled" disabled>I'm disabled</textarea>
+    </p>
+
+    <p><label for="text_area">Readonly Text Area:</label><br />
+      <textarea id="text_area" readonly>I'm readonly</textarea>
     </p>
 
     <p><label for="select_element">Select Element:</label><br />
@@ -180,13 +197,19 @@ for (i = 0; i < divs.length; ++i) {
         <optgroup label="Option Group 1">
           <option value="1">Option 1</option>
           <option value="2">Option 2</option>
-          <option value="3">Option 3</option>
         </optgroup>
         <optgroup label="Option Group 2">
           <option value="1">Option 1</option>
           <option value="2">Option 2</option>
-          <option value="3">Option 3</option>
+          <option value="3" disabled>Disabled Option</option>
         </optgroup>
+      </select>
+    </p>
+
+    <p><label for="select_element_disabled">Disabled Select Element:</label><br/>
+      <select id="select_element_disabled" disabled>
+        <option value="1">Unselectable Option</option>
+        <option value="1">This option should not even be seen</option>
       </select>
     </p>
 
@@ -194,12 +217,14 @@ for (i = 0; i < divs.length; ++i) {
       <label><input type="radio" class="radio" name="radio_button" value="radio_1" /> Radio 1</label><br/>
       <label><input type="radio" class="radio" name="radio_button" value="radio_2" /> Radio 2</label><br/>
       <label><input type="radio" class="radio" name="radio_button" value="radio_3" /> Radio 3</label><br/>
+      <label><input type="radio" class="radio" name="radio_button" value="radio_4" disabled /> Radio Disabled</label><br/>
     </p>
 
     <p>Checkboxes:<br />
-      <label><input type="checkbox" class="checkbox" name="checkboxes" value="check_1" /> Radio 1</label><br/>
-      <label><input type="checkbox" class="checkbox" name="checkboxes" value="check_2" /> Radio 2</label><br/>
-      <label><input type="checkbox" class="checkbox" name="checkboxes" value="check_3" /> Radio 3</label><br/>
+      <label><input type="checkbox" class="checkbox" name="checkboxes" value="check_1" /> Checkbox 1</label><br/>
+      <label><input type="checkbox" class="checkbox" name="checkboxes" value="check_2" /> Checkbox 2</label><br/>
+      <label><input type="checkbox" class="checkbox" name="checkboxes" value="check_3" /> Checkbox 3</label><br/>
+      <label><input type="checkbox" class="checkbox" name="checkboxes" value="check_4" disabled /> Checkbox Disabled</label><br/>
     </p>
 
     <p><label for="password">Password:</label><br />
@@ -247,7 +272,7 @@ for (i = 0; i < divs.length; ++i) {
     <p><label for="datalist">Datalist:</label><br />
       <input list="browsers" name="browser" type="datalist" id="datalist" />
       <datalist id="browsers">
-        <option value="Internet Explorer">
+        <option value="Internet Explorer" />
         <option value="Firefox" />
         <option value="Chrome" />
         <option value="Opera" />
@@ -260,7 +285,9 @@ for (i = 0; i < divs.length; ++i) {
     </p>
 
     <p>
-      <input class="button" type="reset" value="Clear" /> <input class="button" type="submit" value="Submit" />
+      <button class="button">Button Element</button>
+      <input class="button" type="reset" value="Clear" />
+      <input class="button" type="submit" value="Submit" />
     </p>
   </form>
 
