@@ -151,39 +151,37 @@ Monospace Text wrapped in "pre" tags:
 
 # List Types
 
-### Ordered List
+## Ordered List
 
-1.  List Item 1
-2.  List Item 2
-3.  List Item 3
+1. List Item 1
+2. List Item 2
+3. List Item 3
     1. List Item 3.1
     2. List Item 3.2
         1. List Item 3.2.1
         2. List Item 3.2 2
     3. List Item 3.3
-4.  List Item 4
+4. List Item 4
 
-### Unordered List
+## Unordered List
 
-*   List Item 1
-*   List Item 2
-*   List Item 3
+* List Item 1
+* List Item 2
+* List Item 3
     * List Item 3.1
     * List Item 3.2
         * List Item 3.2.1
         * List Item 3.2 2
     * List Item 3.3
-*  List Item 4
+* List Item 4
 
-### Definition List
+## Definition List
 
 <dl>
-  <dt>Definition List Term 1</dt>
-  <dd>This is a definition list description.</dd>
-  <dt>Definition List Term 2</dt>
-  <dd>This is a definition list description.</dd>
-  <dt>Definition List Term 3</dt>
-  <dd>This is a definition list description.</dd>
+  <dt>Definition Term 1</dt>
+  <dd>Definition Description 1</dd>
+  <dt>Definition Term 2</dt>
+  <dd>Definition Description 2</dd>
 </dl>
 
 * * *
