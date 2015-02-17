@@ -92,11 +92,11 @@ The `code element` example
 
 The <data value="3967381398">data element</data> example
 
-The _em element_ example
-
 The ~~del element~~ example
 
 The <dfn>dfn element</dfn> and <dfn title="Title text">dfn element with title</dfn> examples
+
+The _em element_ example
 
 The _i element_ example
 
