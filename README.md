@@ -74,6 +74,8 @@ This is a standard paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscin
 
 *Note: the [Figure-Figcaption](http://html5doctor.com/the-figure-figcaption-elements/) and [Details-Summary](http://html5doctor.com/the-details-and-summary-elements/) elements are not currently supported in markdown.*
 
+* * *
+
 #  Text Elements
 
 The [a element](#) and [external a element](http://example.com) examples
