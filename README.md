@@ -52,7 +52,9 @@ Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Qui
 
 * * *
 
-# Paragraphs / Images
+# Block Elements
+
+## Paragraphs and Images
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem.
 
@@ -62,11 +64,19 @@ Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praese
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem.
 
+## Blockquote
+
+This is a standard paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
 > "This is a blockquote. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl."
+
+This is a standard paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+*Note: the [Figure-Figcaption](http://html5doctor.com/the-figure-figcaption-elements/) and [Details-Summary](http://html5doctor.com/the-details-and-summary-elements/) elements are not currently supported in markdown.*
 
 #  Text Elements
 
-The [a element](#) example
+The [a element](#) and [external a element](http://example.com) examples
 
 The <abbr>abbr element</abbr> and an <abbr title="Abbreviation">abbr</abbr> element with title examples
 
@@ -77,6 +87,8 @@ The **b element** example
 The <cite>cite element</cite> example
 
 The `code element` example
+
+The <data value="3967381398">data element</data> example
 
 The _em element_ example
 
@@ -110,6 +122,8 @@ The <sub>sub element</sub> example
 
 The <sup>sup element</sup> example
 
+The <time datetime="2005-05-15 19:00">time element</time> example
+
 The <u>u element</u> example
 
 The <var>var element</var> example
@@ -142,12 +156,24 @@ Monospace Text wrapped in "pre" tags:
 1.  List Item 1
 2.  List Item 2
 3.  List Item 3
+    1. List Item 3.1
+    2. List Item 3.2
+        1. List Item 3.2.1
+        2. List Item 3.2 2
+    3. List Item 3.3
+4.  List Item 4
 
 ### Unordered List
 
 *   List Item 1
 *   List Item 2
 *   List Item 3
+    * List Item 3.1
+    * List Item 3.2
+        * List Item 3.2.1
+        * List Item 3.2 2
+    * List Item 3.3
+*  List Item 4
 
 ### Definition List
 
