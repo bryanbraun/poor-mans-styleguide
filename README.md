@@ -200,4 +200,4 @@ Monospace Text wrapped in "pre" tags:
 
 # Media and Form Elements
 
-This last section contains elements that cannot be represented in markdown. Please consult the final section of [the HTML version](https://github.com/bryanbraun/poor-mans-styleguide/blob/gh-pages/index.html), to see the rest of the styleguide.
+This last sections contain elements that cannot be represented in markdown. Please consult the final section of [the HTML version](https://github.com/bryanbraun/poor-mans-styleguide/blob/gh-pages/index.html), to see the rest of the styleguide.

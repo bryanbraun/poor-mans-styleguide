@@ -6,6 +6,33 @@
 
 <strong><a href="http://poormansstyleguide.com">See the full demo at poormansstyleguide.com</a></strong>
 
+<h2>Table of Contents</h2>
+<ul>
+  <li><a href="#headings">Headings</a></li>
+  <li>
+    <a href="#text-block">Block Elements</a>
+    <ul>
+      <li><a href="#paragraph">Paragraphs</a></li>
+      <li><a href="#blockquote">Blockquote</a></li>
+      <li><a href="#figure-caption">Firgure-Caption</a></li>
+      <li><a href="#details-summary">Details-Summary</a></li>
+    </ul>
+  </li>
+  <li><a href="#text-elements">Text Elements</a></li>
+  <li><a href="#monospace">Monospace / Preformatted</a></li>
+  <li>
+    <a href="#list-types">Lists</a>
+    <ul>
+      <li><a href="#ordered-list">Ordered</a></li>
+      <li><a href="#unordered-list">Unordered</a></li>
+      <li><a href="#definition-list">Definition</a></li>
+    </ul>
+  </li>
+  <li><a href="#tables">Tables</a></li>
+  <li><a href="#media-elements">Media</a></li>
+  <li><a href="#form-elements">Form Elements</a></li>
+</ul>
+
 <hr />
 
 <h1 id="headings">Headings</h1>
@@ -40,14 +67,14 @@
 
 <h2 id="paragraph">Paragraphs and Images</h2>
 
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <p>Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor.</p>
 
 <p><img alt="Placeholder Image and Some Alt Text" src="http://placehold.it/350x150" title="A title element for this placeholder image."></p>
 
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem.</p>
 
-<h2>Blockquote</h2>
+<h2 id="blockquote">Blockquote</h2>
 
 <p>This is a standard paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
 <blockquote>
@@ -55,14 +82,14 @@
 </blockquote>
 <p>This is a standard paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
 
-<h2>Figure-Caption</h2>
+<h2 id="figure-caption">Figure-Caption</h2>
 
 <figure>
   <img src="http://placehold.it/350x150" alt="A placeholder figure image." />
   <figcaption>The figcaption element example</figcaption>
 </figure>
 
-<h2>Details-Summary</h2>
+<h2 id="details-summary">Details-Summary</h2>
 
 <details>
   <summary>The summary element example</summary>
@@ -115,9 +142,9 @@ for (i = 0; i < divs.length; ++i) {
 
 <hr />
 
-<h1 id="list_types">List Types</h1>
+<h1 id="list-types">List Types</h1>
 
-<h2>Ordered List</h2>
+<h2 id="ordered-list">Ordered List</h2>
 <ol>
   <li>List Item 1</li>
   <li>List Item 2</li>
@@ -136,7 +163,7 @@ for (i = 0; i < divs.length; ++i) {
   <li>List Item 4</li>
 </ol>
 
-<h2>Unordered List</h2>
+<h2 id="unordered-list">Unordered List</h2>
 <ul>
   <li>List Item 1</li>
   <li>List Item 2</li>
@@ -155,7 +182,7 @@ for (i = 0; i < divs.length; ++i) {
   <li>List Item 4</li>
 </ul>
 
-<h2>Definition List</h2>
+<h2 id="definition-list">Definition List</h2>
 <dl>
   <dt>Definition Term 1</dt>
   <dd>Definition Description 1</dd>
@@ -197,33 +224,33 @@ for (i = 0; i < divs.length; ++i) {
 
 <hr />
 
-<h1 id="form_elements">Media and Form Elements</h1>
+<h1 id="media-elements">Media</h1>
 
 <p>This last section contains elements that don't render well in markdown. Please consult the final section in <a href="https://github.com/bryanbraun/poor-mans-styleguide/blob/gh-pages/index.html">index.html</a>, to see the rest of the styleguide.</p>
 
-<h2>Media</h2>
-
-<h3>The Audio Element:</h3>
+<h2>The Audio Element:</h2>
 <audio controls>
   <source src="http://www.w3schools.com/tags/horse.ogg" type="audio/ogg" />
   <source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg" />
   Your browser does not support the audio element.
 </audio>
 
-<h3>The Video Element:</h3>
+<h2>The Video Element:</h2>
 <video width="320" height="240" controls>
   <source src="http://www.w3schools.com/tags/movie.mp4" type="video/mp4" />
   <source src="http://www.w3schools.com/tags/movie.ogg" type="video/ogg" />
   Your browser does not support the video tag.
 </video>
 
-<h3>Embedded content:</h3>
+<h2>Embedded content:</h2>
 
 <p>YouTube video (iframe):</p>
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/l4f9QF0SGuQ" frameborder="0" allowfullscreen></iframe>
 
-<h2>Form Elements</h2>
+<hr />
+
+<h1 id="form-elements">Form Elements</h1>
 
 <p>The Fieldset:</p>
 <fieldset>
