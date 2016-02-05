@@ -56,7 +56,7 @@ Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Qui
 
 ## Paragraphs and Images
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor.
 
@@ -200,4 +200,4 @@ Monospace Text wrapped in "pre" tags:
 
 # Media and Form Elements
 
-This last sections contain elements that cannot be represented in markdown. Please consult the final section of [the HTML version](https://github.com/bryanbraun/poor-mans-styleguide/blob/gh-pages/index.html), to see the rest of the styleguide.
+The remaining sections contain elements that cannot be represented in markdown. Please consult [the HTML version](https://github.com/bryanbraun/poor-mans-styleguide/blob/gh-pages/index.html), to see these elements.
