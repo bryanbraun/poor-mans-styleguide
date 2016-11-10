@@ -60,7 +60,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor.
 
-![Placeholder Image and Some Alt Text](http://placehold.it/350x150 "A title element for this placeholder image.")
+![Placeholder Image and Some Alt Text](https://placehold.it/350x150 "A title element for this placeholder image.")
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem.
 
