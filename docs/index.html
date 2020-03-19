@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Product" lang="en">
+<head>
+  <meta itemprop="name" content="Poor Man&#39;s Styleguide">
+  <meta itemprop="description" content="A quick-and-dirty frontend styleguide, designed to be copied and pasted into your CMS.">
+  <meta itemprop="image" content="http://www.bryanbraun.com/sites/default/files/frontend-styleguide-template.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Poor Man's Styleguide | A frontend styleguide for the pragmatic</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body>
+  <div class="wrapper">
+    <!--[if lt IE 9]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <h1 class="title">Poor Man's Styleguide</h1>
+    <p class="subtitle">A frontend styleguide for the pragmatic</p>
+    <div class="intro">
+      <div class="what">
+        <p><strong>What is this?</strong></p>
+        <p>It's a quick-and-dirty frontend styleguide, designed to be copied and pasted into your CMS.</p>
+      </div>
+      <div class="why">
+        <p><strong>Why?</strong></p>
+        <p>You're not Twitter Bootstrap. You don't have the time or money to make a custom fancy-pants dynamic CSS pattern-library. And that's OK. You have other fish to fry.</p>
+      </div>
+    </div>
+    <div class="tabs">
+      <div class="share">
+        <span><iframe src="http://ghbtns.com/github-btn.html?user=bryanbraun&amp;repo=poor-mans-styleguide&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="26"></iframe></span>
+        <span><iframe src="http://ghbtns.com/github-btn.html?user=bryanbraun&amp;repo=poor-mans-styleguide&amp;type=fork&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="26"></iframe></span>
+      </div>
+      <div class="tab">
+        <input class="tab-radio" type="radio" id="tab-1" name="tab-group-1" checked>
+        <label class="tab-label" for="tab-1">Display</label>
+        <div class="tab-panel">
+          <div class="tab-content">
+            <h1 id="headings">Headings</h1>
+
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+
+            <hr />
+
+            <h1 id="headings-with-text">Headings with Text</h1>
+
+            <h1>Heading 1</h1>
+            <p>Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</p>
+            <h2>Heading 2</h2>
+            <p>Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</p>
+            <h3>Heading 3</h3>
+            <p>Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</p>
+            <h4>Heading 4</h4>
+            <p>Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</p>
+            <h5>Heading 5</h5>
+            <p>Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</p>
+            <h6>Heading 6</h6>
+            <p>Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</p>
+
+            <hr />
+
+            <h1 id="text-block">Block Elements</h1>
+
+            <h2 id="paragraph">Paragraphs and Images</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor.</p>
+
+            <p><img alt="Placeholder Image and Some Alt Text" src="https://placehold.it/350x150" title="A title element for this placeholder image."></p>
+
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem.</p>
+
+            <h2 id="blockquote">Blockquote</h2>
+
+            <p>This is a standard paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+
+            <blockquote>
+              "<strong>This is a blockquote.</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl."
+            </blockquote>
+
+            <p>This is a standard paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+
+            <h2 id="figure-caption">Figure-Caption</h2>
+
+            <figure>
+              <img src="https://placehold.it/350x150" alt="A placeholder figure image." />
+              <figcaption>The figcaption element example</figcaption>
+            </figure>
+
+            <h2 id="details-summary">Details-Summary</h2>
+
+            <details>
+              <summary>The summary element example</summary>
+              <p>The details example text. It may be styled differently based on what browser or operating system you are using.</p>
+            </details>
+
+            <hr />
+
+            <h1 id="text-elements"> Text Elements</h1>
+
+            <p>The <a href="#">a element</a> and <a href="https://example.com" target="_blank">external a element</a> examples</p>
+            <p>The <abbr>abbr element</abbr> and an <abbr title="Abbreviation">abbr</abbr> element with title examples</p>
+            <p>The <acronym title="A Cowboy Ran One New York Marathon">ACRONYM</acronym> element example</p>
+            <p>The <b>b element</b> example</p>
+            <p>The <cite>cite element</cite> example</p>
+            <p>The <code>code element</code> example</p>
+            <p>The <data value="3967381398">data element</data> example</p>
+            <p>The <del>del element</del> example</p>
+            <p>The <dfn>dfn element</dfn> and <dfn title="Title text">dfn element with title</dfn> examples</p>
+            <p>The <em>em element</em> example</p>
+            <p>The <i>i element</i> example</p>
+            <p>The <ins>ins element</ins> example</p>
+            <p>The <kbd>kbd element</kbd> example</p>
+            <p>The <mark>mark element</mark> example</p>
+            <p>The <q>q element</q> example</p>
+            <p>The <q>q element <q>inside</q> a q element</q> example</p>
+            <p>The <s>s element</s> example</p>
+            <p>The <samp>samp element</samp> example</p>
+            <p>The <small>small element</small> example</p>
+            <p>The <span>span element</span> example</p>
+            <p>The <strong>strong element</strong> example</p>
+            <p>The <sub>sub element</sub> example</p>
+            <p>The <sup>sup element</sup> example</p>
+            <p>The <time datetime="2005-05-15 19:00">time element</time> example</p>
+            <p>The <u>u element</u> example</p>
+            <p>The <var>var element</var> example</p>
+
+            <hr />
+
+            <h1 id="monospace">Monospace / Preformatted</h1>
+            <p>Code block wrapped in "pre" and "code" tags</p>
+            <pre><code>// Loop through Divs using Javascript.
+var divs = document.querySelectorAll('div'), i;
+
+for (i = 0; i < divs.length; ++i) {
+    divs[i].style.color = "green";
+}</code></pre>
+            <p>Monospace Text wrapped in "pre" tags</p>
+            <pre><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</p></pre>
+
+            <hr />
+
+            <h1 id="list-types">List Types</h1>
+
+            <h2 id="ordered-list">Ordered List</h2>
+            <ol>
+              <li>List Item 1</li>
+              <li>List Item 2</li>
+              <li>List Item 3
+                <ol>
+                  <li>List Item 3.1</li>
+                  <li>List Item 3.2
+                    <ol>
+                      <li>List Item 3.2.1</li>
+                      <li>List Item 3.2.2</li>
+                    </ol>
+                  </li>
+                  <li>List Item 3.3</li>
+                </ol>
+              </li>
+              <li>List Item 4</li>
+            </ol>
+
+            <h2 id="unordered-list">Unordered List</h2>
+            <ul>
+              <li>List Item 1</li>
+              <li>List Item 2</li>
+              <li>List Item 3
+                <ul>
+                  <li>List Item 3.1</li>
+                  <li>List Item 3.2
+                    <ul>
+                      <li>List Item 3.2.1</li>
+                      <li>List Item 3.2.2</li>
+                    </ul>
+                  </li>
+                  <li>List Item 3.3</li>
+                </ul>
+              </li>
+              <li>List Item 4</li>
+            </ul>
+
+            <h2 id="definition-list">Definition List</h2>
+            <dl>
+              <dt>Definition Term 1</dt>
+              <dd>Definition Description 1</dd>
+              <dt>Definition Term 2</dt>
+              <dd>Definition Description 2</dd>
+            </dl>
+
+            <hr />
+
+            <h1 id="tables">Tables</h1>
+
+            <table cellspacing="0" cellpadding="0">
+              <caption>This is a table caption</caption>
+              <thead>
+                <tr>
+                  <th>Table Header 1</th><th>Table Header 2</th><th>Table Header 3</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Division 1</td><td>Division 2</td><td>Division 3</td>
+                </tr>
+                <tr class="even">
+                  <td>Division 1</td><td>Division 2</td><td>Division 3</td>
+                </tr>
+                <tr>
+                  <td>Division 1</td><td>Division 2</td><td>Division 3</td>
+                </tr>
+                <tr>
+                  <td colspan="3">A row with a cell spanning all 3 columns</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Table Footer 1</th><th>Table Footer 2</th><th>Table Footer 3</th>
+                </tr>
+              </tfoot>
+            </table>
+
+            <hr />
+
+            <h1 id="media-elements">Media</h1>
+
+            <h2>The Audio Element:</h2>
+            <audio controls>
+              <source src="https://simpl.info/audio/audio/audio.ogv" type="audio/ogg" />
+              <source src="https://simpl.info/audio/audio/audio.mp3" type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
+
+            <h2>The Video Element:</h2>
+            <video width="320" height="240" controls>
+              <source src="https://www.html5rocks.com/en/tutorials/video/basics/devstories.webm" type='video/webm;codecs="vp8, vorbis"' />
+              <source src="https://www.html5rocks.com/en/tutorials/video/basics/devstories.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+              <track src="https://www.html5rocks.com/en/tutorials/video/basics/devstories-en.vtt" label="English subtitles" kind="subtitles" srclang="en" default />
+              Your browser does not support the video tag.
+            </video>
+
+            <h2>Embedded content:</h2>
+            <p>YouTube video (iframe):</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/l4f9QF0SGuQ" frameborder="0" allowfullscreen></iframe>
+
+            <hr />
+
+            <h1 id="form-elements">Form Elements</h1>
+
+            <p>The Fieldset:</p>
+            <fieldset>
+              <legend>Legend</legend>
+
+              <p>The Form:</p>
+
+              <form>
+                <p><label for="text-field">Text Field:</label><br />
+                  <input type="text" id="text-field" />
+                </p>
+
+                <p><label for="text-field-disabled">Disabled Text Field:</label><br />
+                  <input type="text" id="text-field-disabled" disabled value="I'm disabled" />
+                </p>
+
+                <p><label for="text-field-readonly">Readonly Text Field:</label><br />
+                  <input type="text" id="text-field-readonly" readonly value="I'm readonly" />
+                </p>
+
+                <p><label for="text-area">Text Area:</label><br />
+                  <textarea id="text-area"></textarea>
+                </p>
+
+                <p><label for="text-area-disabled">Disabled Text Area:</label><br />
+                  <textarea id="text-area-disabled" disabled>I'm disabled</textarea>
+                </p>
+
+                <p><label for="text-area-readonly">Readonly Text Area:</label><br />
+                  <textarea id="text-area-readonly" readonly>I'm readonly</textarea>
+                </p>
+
+                <p><label for="select-element">Select Element:</label><br />
+                  <select id="select-element">
+                    <optgroup label="Option Group 1">
+                      <option value="1">Option 1</option>
+                      <option value="2">Option 2</option>
+                    </optgroup>
+                    <optgroup label="Option Group 2">
+                      <option value="1">Option 1</option>
+                      <option value="2">Option 2</option>
+                      <option value="3" disabled>Disabled Option</option>
+                    </optgroup>
+                  </select>
+                </p>
+
+                <p><label for="select-element-disabled">Disabled Select Element:</label><br/>
+                  <select id="select-element-disabled" disabled>
+                    <option value="1">Unselectable Option</option>
+                    <option value="2">This option should not even be seen</option>
+                  </select>
+                </p>
+
+                <p>Radio Buttons:<p>
+                <div>
+                  <input type="radio" id="radio-1" name="radios" value="1" checked />
+                  <label for="radio-1">Radio 1</label>
+                </div>
+                <div>
+                  <input type="radio" id="radio-2" name="radios" value="2" />
+                  <label for="radio-2">Radio 2</label>
+                </div>
+                <div>
+                  <input type="radio" id="radio-3" name="radios" value="3" />
+                  <label for="radio-3">Radio 3</label>
+                </div>
+                <div>
+                  <input type="radio" id="radio-4" name="radios" value="4" disabled />
+                  <label for="radio-4">Radio Disabled</label>
+                </div>
+
+                <p>Checkboxes:</p>
+                <div>
+                  <input type="checkbox" id="checkbox-1" name="checkboxes" value="1" checked />
+                  <label for="checkbox-1">Checkbox 1</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="checkbox-2" name="checkboxes" value="2" />
+                  <label for="checkbox-2">Checkbox 2</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="checkbox-3" name="checkboxes" value="3" />
+                  <label for="checkbox-3">Checkbox 3</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="checkbox-4" name="checkboxes" value="4" disabled />
+                  <label for="checkbox-4">Checkbox Disabled</label>
+                </div>
+
+                <p><label for="password">Password:</label><br />
+                  <input type="password" class="password" id="password" />
+                </p>
+
+                <p><label for="file">File Input:</label><br />
+                  <input type="file" class="file" id="file" />
+                </p>
+
+                <h3>HTML5-specific Form Elements</h3>
+
+                <p><label for="email">Email:</label><br />
+                  <input type="email" id="email" />
+                </p>
+
+                <p><label for="url">URL:</label><br />
+                  <input type="url" id="url" />
+                </p>
+
+                <p><label for="tel">Telephone:</label><br />
+                  <input type="tel" id="tel" />
+                </p>
+
+                <p><label for="number">Number:</label><br />
+                  <input type="number" id="number" min="0" max="10" step="1" value="5" />
+                </p>
+
+                <p><label for="search">Search:</label><br />
+                  <input type="search" id="search" />
+                </p>
+
+                <p><label for="date">Date:</label><br />
+                  <input type="date" id="date" />
+                </p>
+
+                <p><label for="time">Time:</label><br />
+                  <input type="time" id="time" />
+                </p>
+
+                <p><label for="color">Color:</label><br />
+                  <input type="color" id="color" />
+                </p>
+
+                <p><label for="datalist">Datalist:</label><br />
+                  <input list="browsers" name="browser" type="datalist" id="datalist" />
+                  <datalist id="browsers">
+                    <option value="Internet Explorer" />
+                    <option value="Firefox" />
+                    <option value="Chrome" />
+                    <option value="Opera" />
+                    <option value="Safari" />
+                  </datalist>
+                </p>
+
+                <p><label for="range">Range:</label><br />
+                  <input type="range" id="range" name="points" min="1" max="10" />
+                </p>
+
+                <p><label for="output">Output:</label><br />
+                  <output name="result" id="output">42</output>
+                </p>
+
+                <p><label for="progress">Progress:</label><br />
+                  <progress id="progress" value="65" max="100"></progress>
+                </p>
+
+                <p><label for="meter">Meter:</label><br />
+                  <meter id="meter" min="200" max="500" value="350">350 degrees</meter>
+                </p>
+
+                <p>
+                  <button class="button">Button Element</button>
+                  <input class="button" type="reset" value="Clear" />
+                  <input class="button" type="submit" value="Submit" />
+                </p>
+              </form>
+
+            </fieldset>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <input class="tab-radio" type="radio" id="tab-2" name="tab-group-1">
+        <label class="tab-label" for="tab-2">The HTML</label>
+
+        <div class="tab-panel">
+          <div class="tab-content">
+            <a href="#" id="select-html" class="selectall" onclick="event.preventDefault();">Select All</a>
+            <pre id="html-snippet"><code>&lt;h1 id=&quot;headings&quot;&gt;Headings&lt;/h1&gt;
+
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;headings-with-text&quot;&gt;Headings with Text&lt;/h1&gt;
+
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.&lt;/p&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.&lt;/p&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.&lt;/p&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.&lt;/p&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.&lt;/p&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;text-block&quot;&gt;Block Elements&lt;/h1&gt;
+
+&lt;h2 id=&quot;paragraph&quot;&gt;Paragraphs and Images&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;p&gt;Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;Placeholder Image and Some Alt Text&quot; src=&quot;https://placehold.it/350x150&quot; title=&quot;A title element for this placeholder image.&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem.&lt;/p&gt;
+
+&lt;h2 id=&quot;blockquote&quot;&gt;Blockquote&lt;/h2&gt;
+
+&lt;p&gt;This is a standard paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/p&gt;
+&lt;blockquote&gt;
+  &quot;&lt;strong&gt;This is a blockquote.&lt;/strong&gt; Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.&quot;
+&lt;/blockquote&gt;
+&lt;p&gt;This is a standard paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/p&gt;
+
+&lt;h2 id=&quot;figure-caption&quot;&gt;Figure-Caption&lt;/h2&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;https://placehold.it/350x150&quot; alt=&quot;A placeholder figure image.&quot; /&gt;
+  &lt;figcaption&gt;The figcaption element example&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;details-summary&quot;&gt;Details-Summary&lt;/h2&gt;
+
+&lt;details&gt;
+  &lt;summary&gt;The summary element example&lt;/summary&gt;
+  &lt;p&gt;The details example text. It may be styled differently based on what browser or operating system you are using.&lt;/p&gt;
+&lt;/details&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;text-elements&quot;&gt; Text Elements&lt;/h1&gt;
+
+&lt;p&gt;The &lt;a href=&quot;#&quot;&gt;a element&lt;/a&gt; and &lt;a href=&quot;https://example.com&quot; target=&quot;_blank&quot;&gt;external a element&lt;/a&gt; examples&lt;/p&gt;
+&lt;p&gt;The &lt;abbr&gt;abbr element&lt;/abbr&gt; and an &lt;abbr title=&quot;Abbreviation&quot;&gt;abbr&lt;/abbr&gt; element with title examples&lt;/p&gt;
+&lt;p&gt;The &lt;acronym title=&quot;A Cowboy Ran One New York Marathon&quot;&gt;ACRONYM&lt;/acronym&gt; element example&lt;/p&gt;
+&lt;p&gt;The &lt;b&gt;b element&lt;/b&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;cite&gt;cite element&lt;/cite&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;code element&lt;/code&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;data value=&quot;3967381398&quot;&gt;data element&lt;/data&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;del&gt;del element&lt;/del&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;dfn&gt;dfn element&lt;/dfn&gt; and &lt;dfn title=&quot;Title text&quot;&gt;dfn element with title&lt;/dfn&gt; examples&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;em element&lt;/em&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;i&gt;i element&lt;/i&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;ins&gt;ins element&lt;/ins&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;kbd&gt;kbd element&lt;/kbd&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;mark&gt;mark element&lt;/mark&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;q&gt;q element&lt;/q&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;q&gt;q element &lt;q&gt;inside&lt;/q&gt; a q element&lt;/q&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;s&gt;s element&lt;/s&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;samp&gt;samp element&lt;/samp&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;small&gt;small element&lt;/small&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;span&gt;span element&lt;/span&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;strong element&lt;/strong&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;sub&gt;sub element&lt;/sub&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;sup&gt;sup element&lt;/sup&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;time datetime=&quot;2005-05-15 19:00&quot;&gt;time element&lt;/time&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;u&gt;u element&lt;/u&gt; example&lt;/p&gt;
+&lt;p&gt;The &lt;var&gt;var element&lt;/var&gt; example&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;monospace&quot;&gt;Monospace / Preformatted&lt;/h1&gt;
+&lt;p&gt;Code block wrapped in &quot;pre&quot; and &quot;code&quot; tags&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// Loop through Divs using Javascript.
+var divs = document.querySelectorAll(&#39;div&#39;), i;
+
+for (i = 0; i &lt; divs.length; ++i) {
+  divs[i].style.color = &quot;green&quot;;
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Monospace Text wrapped in &quot;pre&quot; tags&lt;/p&gt;
+&lt;pre&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.&lt;/p&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;list-types&quot;&gt;List Types&lt;/h1&gt;
+
+&lt;h2 id=&quot;ordered-list&quot;&gt;Ordered List&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;List Item 1&lt;/li&gt;
+  &lt;li&gt;List Item 2&lt;/li&gt;
+  &lt;li&gt;List Item 3
+    &lt;ol&gt;
+      &lt;li&gt;List Item 3.1&lt;/li&gt;
+      &lt;li&gt;List Item 3.2
+        &lt;ol&gt;
+          &lt;li&gt;List Item 3.2.1&lt;/li&gt;
+          &lt;li&gt;List Item 3.2.2&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;List Item 3.3&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;List Item 4&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;unordered-list&quot;&gt;Unordered List&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;List Item 1&lt;/li&gt;
+  &lt;li&gt;List Item 2&lt;/li&gt;
+  &lt;li&gt;List Item 3
+    &lt;ul&gt;
+      &lt;li&gt;List Item 3.1&lt;/li&gt;
+      &lt;li&gt;List Item 3.2
+        &lt;ul&gt;
+          &lt;li&gt;List Item 3.2.1&lt;/li&gt;
+          &lt;li&gt;List Item 3.2.2&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;List Item 3.3&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;List Item 4&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;definition-list&quot;&gt;Definition List&lt;/h2&gt;
+&lt;dl&gt;
+  &lt;dt&gt;Definition Term 1&lt;/dt&gt;
+  &lt;dd&gt;Definition Description 1&lt;/dd&gt;
+  &lt;dt&gt;Definition Term 2&lt;/dt&gt;
+  &lt;dd&gt;Definition Description 2&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;tables&quot;&gt;Tables&lt;/h1&gt;
+
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;
+  &lt;caption&gt;This is a table caption&lt;/caption&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Table Header 1&lt;/th&gt;&lt;th&gt;Table Header 2&lt;/th&gt;&lt;th&gt;Table Header 3&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Division 1&lt;/td&gt;&lt;td&gt;Division 2&lt;/td&gt;&lt;td&gt;Division 3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;even&quot;&gt;
+      &lt;td&gt;Division 1&lt;/td&gt;&lt;td&gt;Division 2&lt;/td&gt;&lt;td&gt;Division 3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Division 1&lt;/td&gt;&lt;td&gt;Division 2&lt;/td&gt;&lt;td&gt;Division 3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td colspan=&quot;3&quot;&gt;A row with a cell spanning all 3 columns&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Table Footer 1&lt;/th&gt;&lt;th&gt;Table Footer 2&lt;/th&gt;&lt;th&gt;Table Footer 3&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;media-elements&quot;&gt;Media&lt;/h1&gt;
+
+&lt;h2&gt;The Audio Element:&lt;/h2&gt;
+&lt;audio controls&gt;
+  &lt;source src=&quot;https://simpl.info/audio/audio/audio.ogv&quot; type=&quot;audio/ogg&quot; /&gt;
+  &lt;source src=&quot;https://simpl.info/audio/audio/audio.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+  Your browser does not support the audio element.
+&lt;/audio&gt;
+
+&lt;h2&gt;The Video Element:&lt;/h2&gt;
+&lt;video width=&quot;320&quot; height=&quot;240&quot; controls&gt;
+  &lt;source src=&quot;https://www.html5rocks.com/en/tutorials/video/basics/devstories.webm&quot; type='video/webm;codecs=&quot;vp8, vorbis&quot;' /&gt;
+  &lt;source src=&quot;https://www.html5rocks.com/en/tutorials/video/basics/devstories.mp4&quot; type='video/mp4;codecs=&quot;avc1.42E01E, mp4a.40.2&quot;' /&gt;
+  &lt;track src=&quot;https://www.html5rocks.com/en/tutorials/video/basics/devstories-en.vtt&quot; label=&quot;English subtitles&quot; kind=&quot;subtitles&quot; srclang=&quot;en&quot; default /&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;h2&gt;Embedded content:&lt;/h2&gt;
+&lt;p&gt;YouTube video (iframe):&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/l4f9QF0SGuQ&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;form-elements&quot;&gt;Form Elements&lt;/h1&gt;
+
+&lt;p&gt;The Fieldset:&lt;/p&gt;
+&lt;fieldset&gt;
+  &lt;legend&gt;Legend&lt;/legend&gt;
+
+  &lt;p&gt;The Form:&lt;/p&gt;
+
+  &lt;form&gt;
+    &lt;p&gt;&lt;label for=&quot;text-field&quot;&gt;Text Field:&lt;/label&gt;&lt;br /&gt;
+      &lt;input type=&quot;text&quot; id=&quot;text-field&quot; /&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;text-field-disabled&quot;&gt;Disabled Text Field:&lt;/label&gt;&lt;br /&gt;
+      &lt;input type=&quot;text&quot; id=&quot;text-field-disabled&quot; disabled value=&quot;I&#39;m disabled&quot; /&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;text-field-readonly&quot;&gt;Readonly Text Field:&lt;/label&gt;&lt;br /&gt;
+      &lt;input type=&quot;text&quot; id=&quot;text-field-readonly&quot; readonly value=&quot;I&#39;m readonly&quot; /&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;text-area&quot;&gt;Text Area:&lt;/label&gt;&lt;br /&gt;
+      &lt;textarea id=&quot;text-area&quot;&gt;&lt;/textarea&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;text-area-disabled&quot;&gt;Disabled Text Area:&lt;/label&gt;&lt;br /&gt;
+      &lt;textarea id=&quot;text-area-disabled&quot; disabled&gt;I&#39;m disabled&lt;/textarea&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;text-area-readonly&quot;&gt;Readonly Text Area:&lt;/label&gt;&lt;br /&gt;
+      &lt;textarea id=&quot;text-area-readonly&quot; readonly&gt;I&#39;m readonly&lt;/textarea&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;select-element&quot;&gt;Select Element:&lt;/label&gt;&lt;br /&gt;
+      &lt;select id=&quot;select-element&quot;&gt;
+        &lt;optgroup label=&quot;Option Group 1&quot;&gt;
+          &lt;option value=&quot;1&quot;&gt;Option 1&lt;/option&gt;
+          &lt;option value=&quot;2&quot;&gt;Option 2&lt;/option&gt;
+        &lt;/optgroup&gt;
+        &lt;optgroup label=&quot;Option Group 2&quot;&gt;
+          &lt;option value=&quot;1&quot;&gt;Option 1&lt;/option&gt;
+          &lt;option value=&quot;2&quot;&gt;Option 2&lt;/option&gt;
+          &lt;option value=&quot;3&quot; disabled&gt;Disabled Option&lt;/option&gt;
+        &lt;/optgroup&gt;
+      &lt;/select&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;select-element-disabled&quot;&gt;Disabled Select Element:&lt;/label&gt;&lt;br/&gt;
+      &lt;select id=&quot;select-element-disabled&quot; disabled&gt;
+        &lt;option value=&quot;1&quot;&gt;Unselectable Option&lt;/option&gt;
+        &lt;option value=&quot;2&quot;&gt;This option should not even be seen&lt;/option&gt;
+      &lt;/select&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;Radio Buttons:&lt;p&gt;
+    &lt;div&gt;
+      &lt;input type=&quot;radio&quot; id=&quot;radio-1&quot; name=&quot;radios&quot; value=&quot;1&quot; checked /&gt;
+      &lt;label for=&quot;radio-1&quot;&gt;Radio 1&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;input type=&quot;radio&quot; id=&quot;radio-2&quot; name=&quot;radios&quot; value=&quot;2&quot; /&gt;
+      &lt;label for=&quot;radio-2&quot;&gt;Radio 2&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;input type=&quot;radio&quot; id=&quot;radio-3&quot; name=&quot;radios&quot; value=&quot;3&quot; /&gt;
+      &lt;label for=&quot;radio-3&quot;&gt;Radio 3&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;input type=&quot;radio&quot; id=&quot;radio-4&quot; name=&quot;radios&quot; value=&quot;4&quot; disabled /&gt;
+      &lt;label for=&quot;radio-4&quot;&gt;Radio Disabled&lt;/label&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt;Checkboxes:&lt;/p&gt;
+    &lt;div&gt;
+      &lt;input type=&quot;checkbox&quot; id=&quot;checkbox-1&quot; name=&quot;checkboxes&quot; value=&quot;1&quot; checked /&gt;
+      &lt;label for=&quot;checkbox-1&quot;&gt;Checkbox 1&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;input type=&quot;checkbox&quot; id=&quot;checkbox-2&quot; name=&quot;checkboxes&quot; value=&quot;2&quot; /&gt;
+      &lt;label for=&quot;checkbox-2&quot;&gt;Checkbox 2&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;input type=&quot;checkbox&quot; id=&quot;checkbox-3&quot; name=&quot;checkboxes&quot; value=&quot;3&quot; /&gt;
+      &lt;label for=&quot;checkbox-3&quot;&gt;Checkbox 3&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;input type=&quot;checkbox&quot; id=&quot;checkbox-4&quot; name=&quot;checkboxes&quot; value=&quot;4&quot; disabled /&gt;
+      &lt;label for=&quot;checkbox-4&quot;&gt;Checkbox Disabled&lt;/label&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt;&lt;label for=&quot;password&quot;&gt;Password:&lt;/label&gt;&lt;br /&gt;
+      &lt;input type=&quot;password&quot; class=&quot;password&quot; id=&quot;password&quot; /&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;file&quot;&gt;File Input:&lt;/label&gt;&lt;br /&gt;
+      &lt;input type=&quot;file&quot; class=&quot;file&quot; id=&quot;file&quot; /&gt;
+    &lt;/p&gt;
+
+    &lt;h3&gt;HTML5-specific Form Elements&lt;/h3&gt;
+
+    &lt;p&gt;&lt;label for=&quot;email&quot;&gt;Email:&lt;/label&gt;&lt;br /&gt;
+      &lt;input type=&quot;email&quot; id=&quot;email&quot; /&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;url&quot;&gt;URL:&lt;/label&gt;&lt;br /&gt;
+      &lt;input type=&quot;url&quot; id=&quot;url&quot; /&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;tel&quot;&gt;Telephone:&lt;/label&gt;&lt;br /&gt;
+      &lt;input type=&quot;tel&quot; id=&quot;tel&quot; /&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;number&quot;&gt;Number:&lt;/label&gt;&lt;br /&gt;
+      &lt;input type=&quot;number&quot; id=&quot;number&quot; min=&quot;0&quot; max=&quot;10&quot; step=&quot;1&quot; value=&quot;5&quot; /&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;search&quot;&gt;Search:&lt;/label&gt;&lt;br /&gt;
+      &lt;input type=&quot;search&quot; id=&quot;search&quot; /&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;date&quot;&gt;Date:&lt;/label&gt;&lt;br /&gt;
+      &lt;input type=&quot;date&quot; id=&quot;date&quot; /&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;time&quot;&gt;Time:&lt;/label&gt;&lt;br /&gt;
+      &lt;input type=&quot;time&quot; id=&quot;time&quot; /&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;color&quot;&gt;Color:&lt;/label&gt;&lt;br /&gt;
+      &lt;input type=&quot;color&quot; id=&quot;color&quot; /&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;datalist&quot;&gt;Datalist:&lt;/label&gt;&lt;br /&gt;
+      &lt;input list=&quot;browsers&quot; name=&quot;browser&quot; type=&quot;datalist&quot; id=&quot;datalist&quot; /&gt;
+      &lt;datalist id=&quot;browsers&quot;&gt;
+        &lt;option value=&quot;Internet Explorer&quot; /&gt;
+        &lt;option value=&quot;Firefox&quot; /&gt;
+        &lt;option value=&quot;Chrome&quot; /&gt;
+        &lt;option value=&quot;Opera&quot; /&gt;
+        &lt;option value=&quot;Safari&quot; /&gt;
+      &lt;/datalist&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;range&quot;&gt;Range:&lt;/label&gt;&lt;br /&gt;
+      &lt;input type=&quot;range&quot; id=&quot;range&quot; name=&quot;points&quot; min=&quot;1&quot; max=&quot;10&quot; /&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;output&quot;&gt;Output:&lt;/label&gt;&lt;br /&gt;
+      &lt;output name=&quot;result&quot; id=&quot;output&quot;&gt;42&lt;/output&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;progress&quot;&gt;Progress:&lt;/label&gt;&lt;br /&gt;
+      &lt;progress id=&quot;progress&quot; value=&quot;65&quot; max=&quot;100&quot;&gt;&lt;/progress&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;meter&quot;&gt;Meter:&lt;/label&gt;&lt;br /&gt;
+      &lt;meter id=&quot;meter&quot; min=&quot;200&quot; max=&quot;500&quot; value=&quot;350&quot;&gt;350 degrees&lt;/meter&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+      &lt;button class=&quot;button&quot;&gt;Button Element&lt;/button&gt;
+      &lt;input class=&quot;button&quot; type=&quot;reset&quot; value=&quot;Clear&quot; /&gt;
+      &lt;input class=&quot;button&quot; type=&quot;submit&quot; value=&quot;Submit&quot; /&gt;
+    &lt;/p&gt;
+  &lt;/form&gt;
+
+&lt;/fieldset&gt;</pre></code>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <input class="tab-radio" type="radio" id="tab-3" name="tab-group-1">
+        <label class="tab-label" for="tab-3">The Markdown</label>
+        <div class="tab-panel">
+          <div class="tab-content">
+            <a href="#" id="select-md" class="selectall" onclick="event.preventDefault();">Select All</a>
+            <pre id="markdown-snippet"><code># Headings
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+
+* * *
+
+# Headings with Text
+
+# Heading 1
+
+Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.
+
+## Heading 2
+
+Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.
+
+### Heading 3
+
+Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.
+
+#### Heading 4
+
+Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.
+
+##### Heading 5
+
+Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.
+
+###### Heading 6
+
+Lorem ipsum dolor sit amet, adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.
+
+* * *
+
+# Block Elements
+
+## Paragraphs and Images
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor.
+
+![Placeholder Image and Some Alt Text](https://placehold.it/350x150 "A title element for this placeholder image.")
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem.
+
+## Blockquote
+
+This is a standard paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+> "**This is a blockquote**. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl."
+
+This is a standard paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+*Note: the [Figure-Figcaption](http://html5doctor.com/the-figure-figcaption-elements/) and [Details-Summary](http://html5doctor.com/the-details-and-summary-elements/) elements are not currently supported in markdown.*
+
+* * *
+
+#  Text Elements
+
+The [a element](#) and [external a element](https://example.com) examples
+
+The &lt;abbr&gt;abbr element&lt;/abbr&gt; and an &lt;abbr title="Abbreviation"&gt;abbr&lt;/abbr&gt; element with title examples
+
+The &lt;acronym title="A Cowboy Ran One New York Marathon"&gt;ACRONYM&lt;/acronym&gt; element example
+
+The **b element** example
+
+The &lt;cite&gt;cite element&lt;/cite&gt; example
+
+The `code element` example
+
+The &lt;data value="3967381398"&gt;data element&lt;/data&gt; example
+
+The ~~del element~~ example
+
+The &lt;dfn&gt;dfn element&lt;/dfn&gt; and &lt;dfn title="Title text"&gt;dfn element with title&lt;/dfn&gt; examples
+
+The _em element_ example
+
+The _i element_ example
+
+The &lt;ins&gt;ins element&lt;/ins&gt; example
+
+The &lt;kbd&gt;kbd element&lt;/kbd&gt; example
+
+The &lt;mark&gt;mark element&lt;/mark&gt; example
+
+The &lt;q&gt;q element&lt;/q&gt; example
+
+The &lt;q&gt;q element &lt;q&gt;inside&lt;/q&gt; a q element&lt;/q&gt; example
+
+The &lt;s&gt;s element&lt;/s&gt; example
+
+The &lt;samp&gt;samp element&lt;/samp&gt; example
+
+The &lt;small&gt;small element&lt;/small&gt; example
+
+The &lt;span&gt;span element&lt;/span&gt; example
+
+The **strong element** example
+
+The &lt;sub&gt;sub element&lt;/sub&gt; example
+
+The &lt;sup&gt;sup element&lt;/sup&gt; example
+
+The &lt;time datetime="2005-05-15 19:00"&gt;time element&lt;/time&gt; example
+
+
+The &lt;u&gt;u element&lt;/u&gt; example
+
+The &lt;var&gt;var element&lt;/var&gt; example
+
+* * *
+
+# Monospace / Preformatted
+
+Code block wrapped in "pre" and "code" tags:
+
+```javascript
+// Loop through Divs using Javascript.
+var divs = document.querySelectorAll('div'), i;
+
+for (i = 0; i < divs.length; ++i) {
+  divs[i].style.color = "green";
+}
+```
+
+Monospace Text wrapped in "pre" tags:
+
+&lt;pre&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.&lt;/pre&gt;
+
+* * *
+
+# List Types
+
+## Ordered List
+
+1. List Item 1
+2. List Item 2
+3. List Item 3
+    1. List Item 3.1
+    2. List Item 3.2
+        1. List Item 3.2.1
+        2. List Item 3.2 2
+    3. List Item 3.3
+4. List Item 4
+
+## Unordered List
+
+* List Item 1
+* List Item 2
+* List Item 3
+    * List Item 3.1
+    * List Item 3.2
+        * List Item 3.2.1
+        * List Item 3.2 2
+    * List Item 3.3
+* List Item 4
+
+## Definition List
+
+&lt;dl&gt;
+  &lt;dt&gt;Definition Term 1&lt;/dt&gt;
+  &lt;dd&gt;Definition Description 1&lt;/dd&gt;
+  &lt;dt&gt;Definition Term 2&lt;/dt&gt;
+  &lt;dd&gt;Definition Description 2&lt;/dd&gt;
+&lt;/dl&gt;
+
+* * *
+
+# Tables
+
+| Table Header 1 | Table Header 2 | Table Header 3 |
+| -------------- | -------------- | -------------- |
+| Division 1     | Division 2     | Division 3     |
+| Division 1     | Division 2     | Division 3     |
+| Division 1     | Division 2     | Division 3     |
+
+* * *
+
+# Media and Form Elements
+
+The remaining sections contain elements that cannot be represented in markdown. Please consult [the HTML version](https://github.com/bryanbraun/poor-mans-styleguide/blob/gh-pages/index.html), to see these elements.</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="page-footer">
+      <div class="thanks">
+        <p>Thanks to whoever wrote <a href="http://snipplr.com/view/8121/html-test-page-for-css-style-guide/">this snippet</a>, and to <a href="https://github.com/sarahjean">sarahjean</a>, for sharing it with me.</p></div>
+      <div class="final">
+          <a href="http://opensource.org/licenses/MIT">MIT License</a><span> | Made by <a href="http://www.bryanbraun.com">Bryan</a></span>
+      </div>
+    </footer>
+  </div>
+  <a href="https://github.com/bryanbraun/poor-mans-styleguide"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+  <script src="script.js"></script>
+  <!-- Google Analytics Code -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-54333912-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+</body>
+</html>

@@ -231,32 +231,32 @@ for (i = 0; i < divs.length; ++i) {
   <p>The Form:</p>
 
   <form>
-    <p><label for="text_field">Text Field:</label><br />
-      <input type="text" id="text_field" />
+    <p><label for="text-field">Text Field:</label><br />
+      <input type="text" id="text-field" />
     </p>
 
-    <p><label for="text_field_disabled">Disabled Text Field:</label><br />
-      <input type="text" id="text_field_disabled" disabled value="I'm disabled" />
+    <p><label for="text-field-disabled">Disabled Text Field:</label><br />
+      <input type="text" id="text-field-disabled" disabled value="I'm disabled" />
     </p>
 
-    <p><label for="text_field_readonly">Readonly Text Field:</label><br />
-      <input type="text" id="text_field_readonly" readonly value="I'm readonly" />
+    <p><label for="text-field-readonly">Readonly Text Field:</label><br />
+      <input type="text" id="text-field-readonly" readonly value="I'm readonly" />
     </p>
 
-    <p><label for="text_area">Text Area:</label><br />
-      <textarea id="text_area"></textarea>
+    <p><label for="text-area">Text Area:</label><br />
+      <textarea id="text-area"></textarea>
     </p>
 
-    <p><label for="text_area_disabled">Disabled Text Area:</label><br />
-      <textarea id="text_area_disabled" disabled>I'm disabled</textarea>
+    <p><label for="text-area-disabled">Disabled Text Area:</label><br />
+      <textarea id="text-area-disabled" disabled>I'm disabled</textarea>
     </p>
 
-    <p><label for="text_area_readonly">Readonly Text Area:</label><br />
-      <textarea id="text_area_readonly" readonly>I'm readonly</textarea>
+    <p><label for="text-area-readonly">Readonly Text Area:</label><br />
+      <textarea id="text-area-readonly" readonly>I'm readonly</textarea>
     </p>
 
-    <p><label for="select_element">Select Element:</label><br />
-      <select id="select_element">
+    <p><label for="select-element">Select Element:</label><br />
+      <select id="select-element">
         <optgroup label="Option Group 1">
           <option value="1">Option 1</option>
           <option value="2">Option 2</option>
@@ -269,26 +269,48 @@ for (i = 0; i < divs.length; ++i) {
       </select>
     </p>
 
-    <p><label for="select_element_disabled">Disabled Select Element:</label><br/>
-      <select id="select_element_disabled" disabled>
+    <p><label for="select-element-disabled">Disabled Select Element:</label><br/>
+      <select id="select-element-disabled" disabled>
         <option value="1">Unselectable Option</option>
         <option value="2">This option should not even be seen</option>
       </select>
     </p>
 
-    <p>Radio Buttons:<br />
-      <label><input type="radio" class="radio" name="radio_button" value="radio_1" /> Radio 1</label><br/>
-      <label><input type="radio" class="radio" name="radio_button" value="radio_2" /> Radio 2</label><br/>
-      <label><input type="radio" class="radio" name="radio_button" value="radio_3" /> Radio 3</label><br/>
-      <label><input type="radio" class="radio" name="radio_button" value="radio_4" disabled /> Radio Disabled</label><br/>
-    </p>
+    <p>Radio Buttons:<p>
+    <div>
+      <input type="radio" id="radio-1" name="radios" value="1" checked />
+      <label for="radio-1">Radio 1</label>
+    </div>
+    <div>
+      <input type="radio" id="radio-2" name="radios" value="2" />
+      <label for="radio-2">Radio 2</label>
+    </div>
+    <div>
+      <input type="radio" id="radio-3" name="radios" value="3" />
+      <label for="radio-3">Radio 3</label>
+    </div>
+    <div>
+      <input type="radio" id="radio-4" name="radios" value="4" disabled />
+      <label for="radio-4">Radio Disabled</label>
+    </div>
 
-    <p>Checkboxes:<br />
-      <label><input type="checkbox" class="checkbox" name="checkboxes" value="check_1" /> Checkbox 1</label><br/>
-      <label><input type="checkbox" class="checkbox" name="checkboxes" value="check_2" /> Checkbox 2</label><br/>
-      <label><input type="checkbox" class="checkbox" name="checkboxes" value="check_3" /> Checkbox 3</label><br/>
-      <label><input type="checkbox" class="checkbox" name="checkboxes" value="check_4" disabled /> Checkbox Disabled</label><br/>
-    </p>
+    <p>Checkboxes:</p>
+    <div>
+      <input type="checkbox" id="checkbox-1" name="checkboxes" value="1" checked />
+      <label for="checkbox-1">Checkbox 1</label>
+    </div>
+    <div>
+      <input type="checkbox" id="checkbox-2" name="checkboxes" value="2" />
+      <label for="checkbox-2">Checkbox 2</label>
+    </div>
+    <div>
+      <input type="checkbox" id="checkbox-3" name="checkboxes" value="3" />
+      <label for="checkbox-3">Checkbox 3</label>
+    </div>
+    <div>
+      <input type="checkbox" id="checkbox-4" name="checkboxes" value="4" disabled />
+      <label for="checkbox-4">Checkbox Disabled</label>
+    </div>
 
     <p><label for="password">Password:</label><br />
       <input type="password" class="password" id="password" />
