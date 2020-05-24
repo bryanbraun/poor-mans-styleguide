@@ -287,25 +287,66 @@ for (i = 0; i < divs.length; ++i) {
                 </p>
 
                 <p><label for="select-element">Select Element:</label><br />
-                  <select id="select-element">
-                    <optgroup label="Option Group 1">
-                      <option value="1">Option 1</option>
-                      <option value="2">Option 2</option>
-                    </optgroup>
-                    <optgroup label="Option Group 2">
-                      <option value="1">Option 1</option>
-                      <option value="2">Option 2</option>
-                      <option value="3" disabled>Disabled Option</option>
-                    </optgroup>
-                  </select>
-                </p>
+                <select id="select-element">
+                  <optgroup label="Option Group 1">
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                  </optgroup>
+                  <optgroup label="Option Group 2">
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3" disabled>Disabled Option</option>
+                  </optgroup>
+                </select>
+              </p>
 
-                <p><label for="select-element-disabled">Disabled Select Element:</label><br/>
-                  <select id="select-element-disabled" disabled>
-                    <option value="1">Unselectable Option</option>
-                    <option value="2">This option should not even be seen</option>
-                  </select>
-                </p>
+              <p><label for="select-element-disabled">Disabled Select Element:</label><br/>
+                <select id="select-element-disabled" disabled>
+                  <option value="1">Unselectable Option</option>
+                  <option value="2">This option should not even be seen</option>
+                </select>
+              </p>
+
+              <p><label for="select_multi">Select [size="2"]</label><br/>
+              <select
+                id="select_size"
+                name="select_size"
+                size="2"
+              >
+                <optgroup label="Group 1">
+                  <option value="1">Some text goes here </option>
+                  <option value="2">Another choice could be here</option>
+                  <option value="3">Yet another item to be chosen</option>
+                </optgroup>
+                <optgroup label="Group 2">
+                  <option value="4">Some text goes here</option>
+                  <option value="5">Another choice could be here</option>
+                  <option value="6">Yet another item to be chosen</option>
+                </optgroup>
+              </select></p>
+
+              <p><label for="select_multi">Select multiple</label><br/>
+              <select
+                id="select_multi"
+                multiple="multiple"
+                name="select_multi"
+              >
+                <optgroup label="Group 1">
+                  <option value="1">Some text goes here </option>
+                  <option value="2">Another choice could be here</option>
+                  <option value="3">Yet another item to be chosen</option>
+                </optgroup>
+                <optgroup label="Group 2">
+                  <option value="4">Some text goes here</option>
+                  <option value="5">Another choice could be here</option>
+                  <option value="6">Yet another item to be chosen</option>
+                </optgroup>
+                <optgroup label="Group 3">
+                  <option value="7">Some text goes here</option>
+                  <option value="8">Another choice could be here</option>
+                  <option value="9">Yet another item to be chosen</option>
+                </optgroup>
+              </select></p>
 
                 <p>Radio Buttons:<p>
                 <div>
@@ -414,6 +455,7 @@ for (i = 0; i < divs.length; ++i) {
 
                 <p>
                   <button class="button">Button Element</button>
+                  <input type="button" value="Input button">
                   <input class="button" type="reset" value="Clear" />
                   <input class="button" type="submit" value="Submit" />
                 </p>
