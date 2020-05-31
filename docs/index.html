@@ -307,6 +307,49 @@ for (i = 0; i < divs.length; ++i) {
                   </select>
                 </p>
 
+                <p><label for="select_multi">Select multiple</label><br/>
+                  <select
+                    id="select_multi"
+                    multiple="multiple"
+                    name="select_multi"
+                  >
+                    <optgroup label="Group 1">
+                      <option value="1">Some text goes here </option>
+                      <option value="2">Another choice could be here</option>
+                      <option value="3">Yet another item to be chosen</option>
+                    </optgroup>
+                    <optgroup label="Group 2">
+                      <option value="4">Some text goes here</option>
+                      <option value="5">Another choice could be here</option>
+                      <option value="6">Yet another item to be chosen</option>
+                    </optgroup>
+                    <optgroup label="Group 3">
+                      <option value="7">Some text goes here</option>
+                      <option value="8">Another choice could be here</option>
+                      <option value="9">Yet another item to be chosen</option>
+                    </optgroup>
+                  </select>
+                </p>
+
+                <p><label for="select_size">Select multiple [size="2"]</label><br/>
+                  <select
+                    id="select_size"
+                    name="select_size"
+                    size="2"
+                  >
+                    <optgroup label="Group 1">
+                      <option value="1">Some text goes here </option>
+                      <option value="2">Another choice could be here</option>
+                      <option value="3">Yet another item to be chosen</option>
+                    </optgroup>
+                    <optgroup label="Group 2">
+                      <option value="4">Some text goes here</option>
+                      <option value="5">Another choice could be here</option>
+                      <option value="6">Yet another item to be chosen</option>
+                    </optgroup>
+                  </select>
+                </p>
+
                 <p>Radio Buttons:<p>
                 <div>
                   <input type="radio" id="radio-1" name="radios" value="1" checked />
@@ -414,6 +457,7 @@ for (i = 0; i < divs.length; ++i) {
 
                 <p>
                   <button class="button">Button Element</button>
+                  <input type="button" value="Input button">
                   <input class="button" type="reset" value="Clear" />
                   <input class="button" type="submit" value="Submit" />
                 </p>
@@ -697,6 +741,49 @@ for (i = 0; i &lt; divs.length; ++i) {
       &lt;/select&gt;
     &lt;/p&gt;
 
+    &lt;p&gt;&lt;label for=&quot;select_multi&quot;&gt;Select multiple&lt;/label&gt;&lt;br/&gt;
+      &lt;select
+        id=&quot;select_multi&quot;
+        multiple=&quot;multiple&quot;
+        name=&quot;select_multi&quot;
+      &gt;
+        &lt;optgroup label=&quot;Group 1&quot;&gt;
+          &lt;option value=&quot;1&quot;&gt;Some text goes here &lt;/option&gt;
+          &lt;option value=&quot;2&quot;&gt;Another choice could be here&lt;/option&gt;
+          &lt;option value=&quot;3&quot;&gt;Yet another item to be chosen&lt;/option&gt;
+        &lt;/optgroup&gt;
+        &lt;optgroup label=&quot;Group 2&quot;&gt;
+          &lt;option value=&quot;4&quot;&gt;Some text goes here&lt;/option&gt;
+          &lt;option value=&quot;5&quot;&gt;Another choice could be here&lt;/option&gt;
+          &lt;option value=&quot;6&quot;&gt;Yet another item to be chosen&lt;/option&gt;
+        &lt;/optgroup&gt;
+        &lt;optgroup label=&quot;Group 3&quot;&gt;
+          &lt;option value=&quot;7&quot;&gt;Some text goes here&lt;/option&gt;
+          &lt;option value=&quot;8&quot;&gt;Another choice could be here&lt;/option&gt;
+          &lt;option value=&quot;9&quot;&gt;Yet another item to be chosen&lt;/option&gt;
+        &lt;/optgroup&gt;
+      &lt;/select&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;&lt;label for=&quot;select_size&quot;&gt;Select multiple [size=&quot;2&quot;]&lt;/label&gt;&lt;br/&gt;
+      &lt;select
+        id=&quot;select_size&quot;
+        name=&quot;select_size&quot;
+        size=&quot;2&quot;
+      &gt;
+        &lt;optgroup label=&quot;Group 1&quot;&gt;
+          &lt;option value=&quot;1&quot;&gt;Some text goes here &lt;/option&gt;
+          &lt;option value=&quot;2&quot;&gt;Another choice could be here&lt;/option&gt;
+          &lt;option value=&quot;3&quot;&gt;Yet another item to be chosen&lt;/option&gt;
+        &lt;/optgroup&gt;
+        &lt;optgroup label=&quot;Group 2&quot;&gt;
+          &lt;option value=&quot;4&quot;&gt;Some text goes here&lt;/option&gt;
+          &lt;option value=&quot;5&quot;&gt;Another choice could be here&lt;/option&gt;
+          &lt;option value=&quot;6&quot;&gt;Yet another item to be chosen&lt;/option&gt;
+        &lt;/optgroup&gt;
+      &lt;/select&gt;
+    &lt;/p&gt;
+
     &lt;p&gt;Radio Buttons:&lt;p&gt;
     &lt;div&gt;
       &lt;input type=&quot;radio&quot; id=&quot;radio-1&quot; name=&quot;radios&quot; value=&quot;1&quot; checked /&gt;
@@ -804,6 +891,7 @@ for (i = 0; i &lt; divs.length; ++i) {
 
     &lt;p&gt;
       &lt;button class=&quot;button&quot;&gt;Button Element&lt;/button&gt;
+      &lt;input type=&quot;button&quot; value=&quot;Input button&quot;&gt;
       &lt;input class=&quot;button&quot; type=&quot;reset&quot; value=&quot;Clear&quot; /&gt;
       &lt;input class=&quot;button&quot; type=&quot;submit&quot; value=&quot;Submit&quot; /&gt;
     &lt;/p&gt;
