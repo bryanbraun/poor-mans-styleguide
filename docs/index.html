@@ -31,8 +31,8 @@
     </div>
     <div class="tabs">
       <div class="share">
-        <span><iframe src="http://ghbtns.com/github-btn.html?user=bryanbraun&amp;repo=poor-mans-styleguide&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="26"></iframe></span>
-        <span><iframe src="http://ghbtns.com/github-btn.html?user=bryanbraun&amp;repo=poor-mans-styleguide&amp;type=fork&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="26"></iframe></span>
+        <span><iframe src="http://ghbtns.com/github-btn.html?user=bryanbraun&amp;repo=poor-mans-styleguide&amp;type=watch&amp;count=true" width="110" height="26"></iframe></span>
+        <span><iframe src="http://ghbtns.com/github-btn.html?user=bryanbraun&amp;repo=poor-mans-styleguide&amp;type=fork&amp;count=true" width="110" height="26"></iframe></span>
       </div>
       <div class="tab">
         <input class="tab-radio" type="radio" id="tab-1" name="tab-group-1" checked>
@@ -108,7 +108,6 @@
 
             <p>The <a href="#">a element</a> and <a href="https://example.com" target="_blank">external a element</a> examples</p>
             <p>The <abbr>abbr element</abbr> and an <abbr title="Abbreviation">abbr</abbr> element with title examples</p>
-            <p>The <acronym title="A Cowboy Ran One New York Marathon">ACRONYM</acronym> element example</p>
             <p>The <b>b element</b> example</p>
             <p>The <cite>cite element</cite> example</p>
             <p>The <code>code element</code> example</p>
@@ -137,19 +136,22 @@
 
             <h1 id="monospace">Monospace / Preformatted</h1>
             <p>Code block wrapped in "pre" and "code" tags</p>
-            <pre><code>// Loop through Divs using Javascript.
-var divs = document.querySelectorAll('div'), i;
+            <pre>
+              <code>
+                // Loop through Divs using Javascript.
+                var divs = document.querySelectorAll('div'), i;
 
-for (i = 0; i < divs.length; ++i) {
-    divs[i].style.color = "green";
-}</code></pre>
+                for (i = 0; i &lt; divs.length; ++i) {
+                  divs[i].style.color = "green";
+                }
+              </code>
+            </pre>
             <p>Monospace Text wrapped in "pre" tags</p>
-            <pre><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.</p></pre>
-
+            <pre>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.
+            </pre>
             <hr />
-
             <h1 id="list-types">List Types</h1>
-
             <h2 id="ordered-list">Ordered List</h2>
             <ol>
               <li>List Item 1</li>
@@ -200,7 +202,7 @@ for (i = 0; i < divs.length; ++i) {
 
             <h1 id="tables">Tables</h1>
 
-            <table cellspacing="0" cellpadding="0">
+            <table>
               <caption>This is a table caption</caption>
               <thead>
                 <tr>
@@ -249,7 +251,7 @@ for (i = 0; i < divs.length; ++i) {
 
             <h2>Embedded content:</h2>
             <p>YouTube video (iframe):</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/l4f9QF0SGuQ" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/l4f9QF0SGuQ" allowfullscreen></iframe>
 
             <hr />
 
@@ -429,13 +431,13 @@ for (i = 0; i < divs.length; ++i) {
                 </p>
 
                 <p><label for="datalist">Datalist:</label><br />
-                  <input list="browsers" name="browser" type="datalist" id="datalist" />
+                  <input list="browsers" name="browser" type="text" id="datalist" />
                   <datalist id="browsers">
-                    <option value="Internet Explorer" />
-                    <option value="Firefox" />
-                    <option value="Chrome" />
-                    <option value="Opera" />
-                    <option value="Safari" />
+                    <option value="Internet Explorer">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
                   </datalist>
                 </p>
 
@@ -542,7 +544,6 @@ for (i = 0; i < divs.length; ++i) {
 
 &lt;p&gt;The &lt;a href=&quot;#&quot;&gt;a element&lt;/a&gt; and &lt;a href=&quot;https://example.com&quot; target=&quot;_blank&quot;&gt;external a element&lt;/a&gt; examples&lt;/p&gt;
 &lt;p&gt;The &lt;abbr&gt;abbr element&lt;/abbr&gt; and an &lt;abbr title=&quot;Abbreviation&quot;&gt;abbr&lt;/abbr&gt; element with title examples&lt;/p&gt;
-&lt;p&gt;The &lt;acronym title=&quot;A Cowboy Ran One New York Marathon&quot;&gt;ACRONYM&lt;/acronym&gt; element example&lt;/p&gt;
 &lt;p&gt;The &lt;b&gt;b element&lt;/b&gt; example&lt;/p&gt;
 &lt;p&gt;The &lt;cite&gt;cite element&lt;/cite&gt; example&lt;/p&gt;
 &lt;p&gt;The &lt;code&gt;code element&lt;/code&gt; example&lt;/p&gt;
@@ -634,7 +635,7 @@ for (i = 0; i &lt; divs.length; ++i) {
 
 &lt;h1 id=&quot;tables&quot;&gt;Tables&lt;/h1&gt;
 
-&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;
+&lt;table&gt;
   &lt;caption&gt;This is a table caption&lt;/caption&gt;
   &lt;thead&gt;
     &lt;tr&gt;
@@ -897,7 +898,7 @@ for (i = 0; i &lt; divs.length; ++i) {
     &lt;/p&gt;
   &lt;/form&gt;
 
-&lt;/fieldset&gt;</pre></code>
+&lt;/fieldset&gt;</code></pre>
           </div>
         </div>
       </div>
@@ -982,8 +983,6 @@ The [a element](#) and [external a element](https://example.com) examples
 
 The &lt;abbr&gt;abbr element&lt;/abbr&gt; and an &lt;abbr title="Abbreviation"&gt;abbr&lt;/abbr&gt; element with title examples
 
-The &lt;acronym title="A Cowboy Ran One New York Marathon"&gt;ACRONYM&lt;/acronym&gt; element example
-
 The **b element** example
 
 The &lt;cite&gt;cite element&lt;/cite&gt; example
@@ -1041,7 +1040,7 @@ Code block wrapped in "pre" and "code" tags:
 // Loop through Divs using Javascript.
 var divs = document.querySelectorAll('div'), i;
 
-for (i = 0; i < divs.length; ++i) {
+for (i = 0; i &lt; divs.length; ++i) {
   divs[i].style.color = "green";
 }
 ```
