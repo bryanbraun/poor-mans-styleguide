@@ -715,6 +715,10 @@ pre > code {
 }
 
 @media only screen and (max-width: 680px) {
+  .iframe-container{
+    height: "240" !important;
+    width: "320" !important;
+  }
   .share {
     position: relative;
     top: -36px;
@@ -724,6 +728,21 @@ pre > code {
   }
 }
 
+.iframe-container {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
 @media only screen and (max-width: 420px) {
   .tabs .tab > label {
     background: #DDD;
@@ -742,5 +761,9 @@ pre > code {
     background: #222;
     border-color: #444;
     color: #DDD;
+  }
+  .iframe-container{
+    height: "240" !important;
+    width: "320" !important;
   }
 }
