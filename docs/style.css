@@ -714,6 +714,10 @@ pre > code {
   display: inline;
 }
 
+iframe {
+  border-width: 0;
+}
+
 @media only screen and (max-width: 680px) {
   .share {
     position: relative;
