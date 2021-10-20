@@ -227,13 +227,13 @@ The remaining sections contain elements that cannot be represented in markdown. 
     - [ ] Child - 3
     - [ ] Child - 4
 
-## Styled with HTML
+<!-- ## Styled with HTML
 <ul>
     <li><input type="checkbox" checked> First task</li>
     <li><input type="checkbox"> Second task</li>
     <li><input type="checkbox" disabled> Disabled and unchecked task</li>
     <li><input type="checkbox" disabled checked> Disabled and checked task</li>
-</ul>
+</ul> -->
 
 
 
