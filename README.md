@@ -201,3 +201,33 @@ Monospace Text wrapped in "pre" tags:
 # Media and Form Elements
 
 The remaining sections contain elements that cannot be represented in markdown. Please consult [the HTML version](https://github.com/bryanbraun/poor-mans-styleguide/blob/gh-pages/index.html), to see these elements.
+
+# Checkboxes
+
+## Simple
+- [ ] Mercury
+- [x] Venus
+- [x] Earth (Orbit/Moon)
+- [x] Mars
+- [-] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Comet Haley
+
+## Nested
+- [X] Parent 1
+    - [X] Child - 1
+    - [X] Child - 2
+    - [X] Child - 3
+    - [X] Child - 4
+- [ ] Parent 2
+    - [ ] Child - 1
+    - [ ] Child - 2
+    - [ ] Child - 3
+    - [ ] Child - 4
+
+
+
+
+
