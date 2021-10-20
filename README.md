@@ -209,7 +209,7 @@ The remaining sections contain elements that cannot be represented in markdown. 
 - [x] Venus
 - [x] Earth (Orbit/Moon)
 - [x] Mars
-- [-] Jupiter
+- [] Jupiter
 - [ ] Saturn
 - [ ] Uranus
 - [ ] Neptune
