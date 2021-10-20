@@ -227,6 +227,9 @@ The remaining sections contain elements that cannot be represented in markdown. 
     - [ ] Child - 3
     - [ ] Child - 4
 
+## Styled with emoji
+:ballot_box_with_check:Male :black_square_button:Female :black_square_button: Not to disclose
+
 
 
 
