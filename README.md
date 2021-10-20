@@ -202,7 +202,7 @@ Monospace Text wrapped in "pre" tags:
 
 The remaining sections contain elements that cannot be represented in markdown. Please consult [the HTML version](https://github.com/bryanbraun/poor-mans-styleguide/blob/gh-pages/index.html), to see these elements.
 
-# Checkboxes
+# Checkboxes/Tasklists
 
 ## Simple
 - [ ] Mercury
@@ -227,8 +227,13 @@ The remaining sections contain elements that cannot be represented in markdown. 
     - [ ] Child - 3
     - [ ] Child - 4
 
-## Styled with emoji
-:ballot_box_with_check:Male :black_square_button:Female :black_square_button: Not to disclose
+## Styled with HTML
+<ul>
+    <li><input type="checkbox" checked> First task</li>
+    <li><input type="checkbox"> Second task</li>
+    <li><input type="checkbox" disabled> Disabled and unchecked task</li>
+    <li><input type="checkbox" disabled checked> Disabled and checked task</li>
+</ul>
 
 
 
