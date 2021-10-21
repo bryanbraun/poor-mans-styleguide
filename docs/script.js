@@ -25,9 +25,9 @@ var selectMd = function(){ selectText('markdown-snippet'); };
 htmlButton.addEventListener('click', selectHtml);
 mdButton.addEventListener('click', selectMd);
 
-var checkbox = document.getElementById("some-checkbox");
-checkbox.indeterminate = true;
-function ts(cb) {
-    if (cb.readOnly) cb.checked=cb.readOnly=false;
-    else if (!cb.checked) cb.readOnly=cb.indeterminate=true;
-  }
+// var checkbox = document.getElementById("some-checkbox");
+// checkbox.indeterminate = true;
+// function ts(cb) {
+//     if (cb.readOnly) cb.checked=cb.readOnly=false;
+//     else if (!cb.checked) cb.readOnly=cb.indeterminate=true;
+//   }
