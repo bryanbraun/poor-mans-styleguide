@@ -78,7 +78,7 @@ _Note: the [Figure-Figcaption](http://html5doctor.com/the-figure-figcaption-elem
 
 # Text Elements
 
-The [a element](#) and [external a element](http://example.com) examples
+The [a element](#), [external a element](https://example.com), and [a element with title](# 'Example Title') examples
 
 The <abbr>abbr element</abbr> and an <abbr title="Abbreviation">abbr</abbr> element with title examples
 
