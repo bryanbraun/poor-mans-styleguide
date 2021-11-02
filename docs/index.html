@@ -387,13 +387,12 @@ for (i = 0; i < divs.length; ++i) {
                   <label for="checkbox-4">Checkbox Disabled</label>
                 </div>
                 <div>
-                  <input type="checkbox" id="some-checkbox" onclick="some-checkbox.a = some-checkbox.indeterminate = !some-checkbox.a" >
+                  <input type="checkbox" id="some-checkbox" onclick="this.a=this.indeterminate=!this.a" >
                   <label for="some-checkbox"> Indeterminate Checkbox</label>
                 </div>
                 <div>
                   <input type="checkbox" id="cb1" onclick="if (cb1.readOnly) cb1.checked = cb1.readOnly=false; else if (!cb1.checked) cb1.readOnly=cb1.indeterminate = true;">
                   <label for="cb1">Indeterminate Checkbox (Rotating)</label>
-
                 </div>
 
                 <p><label for="password">Password:</label><br />
@@ -832,7 +831,7 @@ for (i = 0; i &lt; divs.length; ++i) {
 
     &lt;div&gt;
 
-      &lt;input type=&quot;checkbox&quot; id=&quot;some-checkbox&quot; onclick=&quot;some-checkbox.a = some-checkbox.indeterminate= !some-checkbox.a &quot; &gt;
+      &lt;input type=&quot;checkbox&quot; id=&quot;some-checkbox&quot; onclick=&quot;this.a=this.indeterminate=!this.a &quot; &gt;
       &lt;label for=&quot;some-checkbox&quot; &gt;
       Indeterminate Checkbox
       &lt;/label&gt;
