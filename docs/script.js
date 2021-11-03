@@ -24,3 +24,4 @@ var selectHtml = function(){ selectText('html-snippet'); };
 var selectMd = function(){ selectText('markdown-snippet'); };
 htmlButton.addEventListener('click', selectHtml);
 mdButton.addEventListener('click', selectMd);
+
